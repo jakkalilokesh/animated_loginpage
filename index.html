@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e5b53f0656.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Animated Login Page</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create An Account</h1>
+                <div class="social-container">
+                    <a href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+                <span>Use Your Email For Registration</span>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <br />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Sign In</h1>
+                <div class="social-container">
+                    <a href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+                <span>Login To Your Account</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#">Forgot Your Passward?</a>
+                <br />
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Have Already Account?</h1>
+                    <p>To keep connect with us please login with your account here!</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Create An Account</h1>
+                    <p>Enter your personal details and start your journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
